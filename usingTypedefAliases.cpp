@@ -1,6 +1,13 @@
 #include <iostream>
 
-
+/*
+using and typedef - is a reserved uses to create an additional name
+                    (aliases) for another data type.
+                    New identifier for an existing type
+                    Helps with the readibility and reduces typos
+                    use when there is a clear benefit
+                    Replaced with 'using' (working better w/ templates)
+*/
 using varString = std::string;
 using integer = int;
 
